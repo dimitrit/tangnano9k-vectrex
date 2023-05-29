@@ -1,17 +1,16 @@
-#tangnano9k-vectorex
+# tangnano9k-vectrex
 Tang Nano 9K top level module for vectrex
 
 ## Overview
 - Top level module for Tang Nano 9K and circuit diagram of peripheral circuits.
 - Created by modifying the DE10-lite source found in [SourceForge DarFPGA](https://sourceforge.net/projects/darfpga/files/Software%20VHDL/vectrex/).
-- As stated in the README.TXT of the original package, please understand the following before using.
-   -Educational use only
+- As stated in the README.TXT of the original package, please understand the following before using:
+   - Educational use only
    - Do not redistribute synthetized files with roms
-   -Do not redistribute roms whatever the form
+   - Do not redistribute roms whatever the form
    - Use at your own risk
 
 ## How to compile
-
 1. Expand vhdl_vectrex_rev_0_2_2018_06_12.zip in [SourceForge DarFPGA](https://sourceforge.net/projects/darfpga/files/Software%20VHDL/vectrex/).
 2. Copy the contents of the extracted folder below to vectrex_project/src/.
 ```
@@ -38,7 +37,7 @@ It worked with the circuit [hardware/tangnano9k-vectrex-peri-schematics.pdf](har
 - You might need resistors (150 ohms?) for RGB signals.
 - Maybe VGA can be output to HDMI and sound can be output from there, but I have no knowledge about it, so I haven't tried it.
 
-## others
+## Other
 - 27MHz clock is used as 25MHz. It might be better to make a 25MHz clock with Tang Nano's PLL. (I don't know how to use PLL and I don't want to use IP, so I'm using 27MHz clock.)
 - This project is just an attempt to practice using FPGA, so there are no plans to maintain it even if there are bugs.
-
+- This readme was translated from the [Japanese original](README.jp.md) using Google Translate.
